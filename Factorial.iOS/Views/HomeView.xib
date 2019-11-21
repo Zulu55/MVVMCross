@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeView">
+            <connections>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+                <outlet property="NText" destination="185" id="name-outlet-185"/>
+                <outlet property="CalculateButton" destination="189" id="name-outlet-189"/>
+                <outlet property="ResultLabel" destination="201" id="name-outlet-201"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The n value is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="182" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                    <rect key="frame" x="34" y="91" width="237" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="185" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="right" text="0" misplaced="YES">
+                    <rect key="frame" x="34" y="136" width="305" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="189" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                    <rect key="frame" x="136" y="207" width="101" height="30"/>
+                    <state key="normal" title="Calculate"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The factorial is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="198" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                    <rect key="frame" x="34" y="256" width="189" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="201" translatesAutoresizingMaskIntoConstraints="NO" text="1" misplaced="YES">
+                    <rect key="frame" x="34" y="297" width="305" height="84"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24" weight="heavy"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint id="183" firstItem="182" firstAttribute="top" secondItem="2" secondAttribute="top" constant="91"/>
+                <constraint id="184" firstItem="182" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="34"/>
+                <constraint id="186" firstItem="185" firstAttribute="top" secondItem="182" secondAttribute="bottom" constant="24"/>
+                <constraint id="187" firstItem="185" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="34"/>
+                <constraint id="188" firstAttribute="trailing" secondItem="185" secondAttribute="trailing" constant="36"/>
+                <constraint id="190" firstItem="189" firstAttribute="centerX" secondItem="2" secondAttribute="centerX"/>
+                <constraint id="191" firstItem="189" firstAttribute="centerX" secondItem="2" secondAttribute="centerX"/>
+                <constraint id="195" firstItem="189" firstAttribute="top" secondItem="185" secondAttribute="bottom" constant="41"/>
+                <constraint id="196" firstItem="189" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="136"/>
+                <constraint id="199" firstItem="198" firstAttribute="top" secondItem="189" secondAttribute="bottom" constant="19"/>
+                <constraint id="200" firstItem="198" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="34"/>
+                <constraint id="202" firstItem="201" firstAttribute="top" secondItem="198" secondAttribute="bottom" constant="20"/>
+                <constraint id="203" firstItem="201" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="34"/>
+                <constraint id="204" firstAttribute="trailing" secondItem="201" secondAttribute="trailing" constant="36"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

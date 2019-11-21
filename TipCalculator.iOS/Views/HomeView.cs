@@ -6,7 +6,7 @@ using TipCalculator.Core.ViewModels;
 namespace TipCalculator.iOS.Views
 {
     [MvxRootPresentation(WrapInNavigationController = true)]
-    public partial class HomeView : MvxViewController
+    public partial class HomeView : MvxViewController<TipViewModel>
     {
         public HomeView() : base("HomeView", null)
         {

@@ -16,6 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="422" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="162" y="358" width="91" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="620" firstItem="422" firstAttribute="top" secondItem="219" secondAttribute="bottom" constant="338"/>
+                            <constraint id="621" firstItem="220" firstAttribute="top" secondItem="422" secondAttribute="bottom" constant="357"/>
+                            <constraint id="622" firstItem="422" firstAttribute="leading" secondItem="223" secondAttribute="leadingMargin" constant="142"/>
+                            <constraint id="623" firstAttribute="trailingMargin" secondItem="422" secondAttribute="trailing" constant="141"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="224" userLabel="First Responder" sceneMemberID="firstResponder"/>
