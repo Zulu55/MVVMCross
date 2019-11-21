@@ -30,11 +30,7 @@ namespace TipCalculator.Core.ViewModels
         public decimal Tip
         {
             get => _tip;
-            set
-            {
-                _tip = value;
-                RaisePropertyChanged(() => Tip);
-            }
+            set => SetProperty(ref _tip, value);
         }
 
         public int Generosity
