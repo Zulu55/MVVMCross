@@ -13,9 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.iOS", "TipCal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{D47351C9-D4AA-42A8-A24B-0498B0B2E2D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{80076A81-662A-497B-BCBE-47880C679C22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{80076A81-662A-497B-BCBE-47880C679C22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Android", "Factorial.Android\Factorial.Android.csproj", "{33FA9857-FE50-4970-8C03-1474AAC6A26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.iOS", "Factorial.iOS\Factorial.iOS.csproj", "{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,16 @@ Global
 		{33FA9857-FE50-4970-8C03-1474AAC6A26F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{33FA9857-FE50-4970-8C03-1474AAC6A26F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{33FA9857-FE50-4970-8C03-1474AAC6A26F}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Release|iPhone.Build.0 = Release|iPhone
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +119,7 @@ Global
 		{1001895E-9F42-4D6A-AE69-08AF46CF2807} = {A639AB63-BFE4-4F71-9A18-0CD7A1E3D8F8}
 		{80076A81-662A-497B-BCBE-47880C679C22} = {D47351C9-D4AA-42A8-A24B-0498B0B2E2D6}
 		{33FA9857-FE50-4970-8C03-1474AAC6A26F} = {D47351C9-D4AA-42A8-A24B-0498B0B2E2D6}
+		{1E1DA6B8-610D-41FE-8B3D-A23BD5AF76AA} = {D47351C9-D4AA-42A8-A24B-0498B0B2E2D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBAFB4F3-C5AE-425E-8DAA-6E8F479C86E9}
