@@ -10,8 +10,8 @@
     	android:textSize="24dp"
         android:textColor="#ffffff"
         android:gravity="center"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp" />
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp" />
     <ProgressBar
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
